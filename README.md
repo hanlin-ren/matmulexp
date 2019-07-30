@@ -1,5 +1,5 @@
 # matmulexp
-a calculator for [matrix multiplication exponent](https://en.wikipedia.org/wiki/Coppersmith%E2%80%93Winograd_algorithm), translated to Python from [Jan van den Brand's calculator in Javascript](https://people.kth.se/~janvdb/matrix.html).
+a calculator for [matrix multiplication exponent](https://en.wikipedia.org/wiki/Coppersmith%E2%80%93Winograd_algorithm), translated to Python from [Jan van den Brand's calculator in Javascript](https://people.kth.se/~janvdb/matrix.html). (Please refer to papers there for the correctness of this calculator.)
 
 main code: `rectmm.py`. In which `omega(a,b,c)` is the exponent of multiplying a `n^a * n^b` matrix and a `n^b * n^c` matrix.
 
